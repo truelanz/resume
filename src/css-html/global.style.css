@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Fjalla+One&family=Handlee&family=Inconsolata:wght@300;600;900&family=Indie+Flower&family=Rhodium+Libre&family=Righteous&family=Russo+One&family=Titan+One&display=swap');
+
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+head, body {
+    background-color: #0B1319;
+    /* background-image: url("https://cdn.leonardo.ai/users/34eaaf14-adc3-478e-af9b-9d337de28c66/generations/c5601d08-56f4-42b6-89a2-41437610988c/variations/Default_dystopian_background_for_website_green_blue_dark_backg_1_c5601d08-56f4-42b6-89a2-41437610988c_1.jpg"); */
+
+    background-size: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-top {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* border:1px solid white; */
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.my_photo-circle {
+    border: 8px solid #8A6D3B;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+
+    cursor: pointer;
+    /* padding: auto; */
+}
+
+.my_photo .my_photo-circle2 {
+    border: 1px solid #3C81A8;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.my_photo-circle2:active {
+    transform: scale(1.1);
+}
+
+.name_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.name_title > h1 {
+    font-family: 'Righteous', cursive;
+    white-space: nowrap;
+    color: #395E97;
+}
+
+.name_title > h3 {
+    font-size: 18px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+/* .links > a:hover {
+    border: 1px solid #3C81A8;
+    padding: .5rem;
+    border-radius: 20%;
+  } */
+
+#site:hover {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #00ff6e;
+    background-color: #00ff6e1d;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+  }
+#projetos:hover {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #ff9113;
+    background-color: #ff91131f;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+  }
+#contato:hover {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #15fbff;
+    background-color: #3ee1f61e;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+  }
+#github:hover {
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #0040ff;
+    background-color: #0040ff15;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+  }
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    /* border: 1px solid cyan; */
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#about_me-icon h2 {
+    white-space: nowrap;
+    font-family: 'Righteous', cursive;
+    color: #8A6D3B;
+}
+
+.about_me > p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+#formacao-icon h2 {
+    white-space: nowrap;
+    font-family: 'Righteous', cursive;
+}
+
+.formacao p {
+
+    margin-left: 70px;
+}
+
+.angular {
+    margin-bottom: 20px;
+}
+
+.angular-circle h3 {
+    padding-bottom: 5px;
+    color: #395E97;
+}
+
+.java-circle h3 {
+    padding-bottom: 5px;
+    color: #395E97;
+}
+
+.java {
+    margin-bottom: 40px;
+}
+
+.tecnologias {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50000px;
+}
+
+.tecnologias > h2 {
+    font-family: 'Righteous', cursive;
+    margin-bottom: 20px;
+    color: #8A6D3B;
+}
+
+.tecnologias-img-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.tecnologias-img-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+
+}
+
+/* --------------------- hr's -------------------- */
+
+.hr_top-horizontal {
+    border-color: rgb(72, 72, 72); 
+    margin-bottom: 15px;
+}
+
+.hr_mid-horizontal {
+    margin-bottom: 15px;
+    border-color: rgb(72, 72, 72);
+  }
+
+.hr_bottom-horizontal {
+    margin-bottom: 15px;
+    border-color: rgb(72, 72, 72);
+  }
+
+  /* circulos ICONS */
+
+  /* about me */
+  #about_me-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+ .about_me-icon-circle {
+    background-color: #8A6D3B;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_me-icon svg {
+  fill: black;
+}
+
+/* Formacoes */
+#formacao-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+ .formacao-icon-circle {
+    background-color: #8A6D3B;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+
+#formacao-icon svg {
+  fill: black;
+}
+
+/* ------------ Angular circle and Java circle --------------- */
+
+.angular-circle {
+/*     border:1px solid #00ff6e; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.angular-circle-circle {
+    border:1px solid blue;
+    background-color: #395E97;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+
+.java-circle {
+/*     border:1px solid #00ff6e; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.java-circle-circle {
+    border:1px solid blue;
+    background-color: #395E97;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 35px;
+}
