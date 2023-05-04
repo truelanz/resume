@@ -1,0 +1,422 @@
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Fjalla+One&family=Handlee&family=Inconsolata:wght@300;600;900&family=Indie+Flower&family=Rhodium+Libre&family=Righteous&family=Russo+One&family=Titan+One&display=swap);
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.dark {
+    background-color: #0B1319;
+    color: rgb(255, 255, 255);
+
+    transition: all 0.5s ease-in-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-top {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* border:1px solid white; */
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.my_photo-circle {
+    border: 8px solid #8A6D3B;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+
+    cursor: pointer;
+    /* padding: auto; */
+}
+
+.my_photo .my_photo-circle2 {
+    border: 1px solid #3C81A8;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.my_photo-circle2:active {
+    transform: scale(1.1);
+}
+
+.name_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.name_title>h1 {
+    font-family: 'Righteous', cursive;
+    white-space: nowrap;
+    color: #395E97;
+}
+
+.name_title>h3 {
+    font-size: 18px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links>a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: rgb(99, 108, 125);
+}
+
+/* .light #site:hover {
+    color: black;
+} */
+
+#site:hover {
+    transition: all 0.2s ease-in-out;
+    /* border: 1px solid #00ff6e; */
+    background-color: #00ff6e61;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+
+    color: white;
+}
+
+#projetos:hover {
+    transition: all 0.2s ease-in-out;
+    /* border: 1px solid #ff9113; */
+    background-color: #ff911353;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+
+    color: white;
+}
+
+#contato:hover {
+    transition: all 0.2s ease-in-out;
+    /* border: 1px solid #15fbff; */
+    background-color: #3ee1f670;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+
+    color: white;
+}
+
+#github:hover {
+    transition: all 0.2s ease-in-out;
+    /* border: 1px solid #0040ff; */
+    background-color: #0040ff6e;
+    padding: .5rem;
+    border-radius: 10%;
+    font-size: 17px;
+    color: white;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    /* border: 1px solid cyan; */
+    height: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#about_me-icon h2 {
+    white-space: nowrap;
+    font-family: 'Righteous', cursive;
+    color: #8A6D3B;
+}
+
+.about_me>p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+
+#formacao-icon h2 {
+    white-space: nowrap;
+    font-family: 'Righteous', cursive;
+}
+
+.formacao p {
+
+    margin-left: 70px;
+}
+
+.angular {
+    margin-bottom: 20px;
+}
+
+.angular-circle h3 {
+    padding-bottom: 5px;
+    color: #395E97;
+}
+
+.java-circle h3 {
+    padding-bottom: 5px;
+    color: #395E97;
+}
+
+.java {
+    margin-bottom: 40px;
+}
+
+.tecnologias {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50000px;
+}
+
+.tecnologias>h2 {
+    font-family: 'Righteous', cursive;
+    margin-bottom: 20px;
+    color: #8A6D3B;
+}
+
+.tecnologias-img-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tecnologias-img-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+
+}
+
+body.light {
+    background-color: white;
+}
+
+/* --------------------- hr's -------------------- */
+
+.hr_top-horizontal {
+    border-color: rgb(99, 108, 125);
+    margin-bottom: 15px;
+}
+
+.hr_mid-horizontal {
+    margin-bottom: 15px;
+    border-color: rgb(99, 108, 125);
+}
+
+.hr_bottom-horizontal {
+    margin-bottom: 15px;
+    border-color: rgb(99, 108, 125);
+}
+
+/* circulos ICONS */
+
+/* about me */
+#about_me-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.about_me-icon-circle {
+    background-color: #8A6D3B;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_me-icon svg {
+    fill: black;
+}
+
+/* Formacoes */
+#formacao-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.formacao-icon-circle {
+    background-color: #8A6D3B;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+}
+
+#formacao-icon svg {
+    fill: black;
+}
+
+/* ------------ Angular circle and Java circle --------------- */
+
+.angular-circle {
+    /*     border:1px solid #00ff6e; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.angular-circle-circle {
+    border: 1px solid blue;
+    background-color: #395E97;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+
+.java-circle {
+    /*     border:1px solid #00ff6e; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.java-circle-circle {
+    border: 1px solid blue;
+    background-color: #395E97;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+#theme-toggle {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.theme-toggle-display {
+    margin-right: 50px;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    background-color: #d7dfe2;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1.5);
+}
+
+.label .ball {
+    background-color: #0e569e;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.light .label .ball {
+    background-color: #e38c12;
+}
+
+.light .label {
+    background-color: #100F13;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #5ff7ff;
+}
+
+.fa-sun {
+    color: #d78006;
+}
+.light {
+    background-color: rgb(206, 202, 197);
+    color: #0B1319;
+
+    transition: all 0.9s ease-in-out;
+}
+
+.light #site:hover {
+    color: black;
+}
+
+.light #projetos:hover {
+    color: black;
+}
+
+.light #contato:hover {
+    color: black;
+}
+
+.light #github:hover {
+    color: black;
+}

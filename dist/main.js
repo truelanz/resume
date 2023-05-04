@@ -1,1 +1,1 @@
-(()=>{const e=document.querySelector("#changer"),t=document.body;e.addEventListener("click",(()=>{t.classList.toggle("dark"),t.classList.toggle("light")}))})();
+(()=>{"use strict";const t=document.querySelector("#changer"),e=document.body;t.addEventListener("click",(()=>{e.classList.toggle("dark"),e.classList.toggle("light")}))})();
