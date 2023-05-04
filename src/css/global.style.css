@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Fjalla+One&family=Handlee&family=Inconsolata:wght@300;600;900&family=Indie+Flower&family=Rhodium+Libre&family=Righteous&family=Russo+One&family=Titan+One&display=swap');
 
-*{
+* {
     max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
+
 }
 
-head, body {
+.dark {
     background-color: #0B1319;
-    /* background-image: url("https://cdn.leonardo.ai/users/34eaaf14-adc3-478e-af9b-9d337de28c66/generations/c5601d08-56f4-42b6-89a2-41437610988c/variations/Default_dystopian_background_for_website_green_blue_dark_backg_1_c5601d08-56f4-42b6-89a2-41437610988c_1.jpg"); */
+    color: rgb(255, 255, 255);
 
-    background-size: 100%;
+    transition: all 0.5s ease-in-out;
 }
 
 .container {
@@ -30,7 +30,7 @@ head, body {
 
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -70,13 +70,13 @@ head, body {
     margin-left: 10px;
 }
 
-.name_title > h1 {
+.name_title>h1 {
     font-family: 'Righteous', cursive;
     white-space: nowrap;
     color: #395E97;
 }
 
-.name_title > h3 {
+.name_title>h3 {
     font-size: 18px;
 }
 
@@ -84,50 +84,60 @@ head, body {
     margin-top: 20px;
 }
 
-.links > a {
+.links>a {
     text-decoration: none;
     font-size: 12px;
+    font-weight: 700;
     margin-right: 20px;
+    color: rgb(99, 108, 125);
 }
 
-/* .links > a:hover {
-    border: 1px solid #3C81A8;
-    padding: .5rem;
-    border-radius: 20%;
-  } */
+/* .light #site:hover {
+    color: black;
+} */
 
 #site:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #00ff6e;
-    background-color: #00ff6e1d;
+    /* border: 1px solid #00ff6e; */
+    background-color: #00ff6e61;
     padding: .5rem;
     border-radius: 10%;
     font-size: 17px;
-  }
+
+    color: white;
+}
+
 #projetos:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #ff9113;
-    background-color: #ff91131f;
+    /* border: 1px solid #ff9113; */
+    background-color: #ff911353;
     padding: .5rem;
     border-radius: 10%;
     font-size: 17px;
-  }
+
+    color: white;
+}
+
 #contato:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #15fbff;
-    background-color: #3ee1f61e;
+    /* border: 1px solid #15fbff; */
+    background-color: #3ee1f670;
     padding: .5rem;
     border-radius: 10%;
     font-size: 17px;
-  }
+
+    color: white;
+}
+
 #github:hover {
     transition: all 0.2s ease-in-out;
-    border: 1px solid #0040ff;
-    background-color: #0040ff15;
+    /* border: 1px solid #0040ff; */
+    background-color: #0040ff6e;
     padding: .5rem;
     border-radius: 10%;
     font-size: 17px;
-  }
+    color: white;
+}
 
 .container-body {
     display: flex;
@@ -147,7 +157,7 @@ head, body {
     color: #8A6D3B;
 }
 
-.about_me > p {
+.about_me>p {
     margin-top: 10px;
     margin-bottom: 40px;
     margin-left: 70px;
@@ -191,7 +201,7 @@ head, body {
     width: 50000px;
 }
 
-.tecnologias > h2 {
+.tecnologias>h2 {
     font-family: 'Righteous', cursive;
     margin-bottom: 20px;
     color: #8A6D3B;
@@ -205,6 +215,7 @@ head, body {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .tecnologias-img-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -216,34 +227,38 @@ head, body {
 
 }
 
+body.light {
+    background-color: white;
+}
+
 /* --------------------- hr's -------------------- */
 
 .hr_top-horizontal {
-    border-color: rgb(72, 72, 72); 
+    border-color: rgb(99, 108, 125);
     margin-bottom: 15px;
 }
 
 .hr_mid-horizontal {
     margin-bottom: 15px;
-    border-color: rgb(72, 72, 72);
-  }
+    border-color: rgb(99, 108, 125);
+}
 
 .hr_bottom-horizontal {
     margin-bottom: 15px;
-    border-color: rgb(72, 72, 72);
-  }
+    border-color: rgb(99, 108, 125);
+}
 
-  /* circulos ICONS */
+/* circulos ICONS */
 
-  /* about me */
-  #about_me-icon {
+/* about me */
+#about_me-icon {
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: center;
-  }
+}
 
- .about_me-icon-circle {
+.about_me-icon-circle {
     background-color: #8A6D3B;
     height: 50px;
     width: 50px;
@@ -255,7 +270,7 @@ head, body {
 }
 
 #about_me-icon svg {
-  fill: black;
+    fill: black;
 }
 
 /* Formacoes */
@@ -264,9 +279,9 @@ head, body {
     flex-direction: row;
     gap: 20px;
     align-items: center;
-  }
+}
 
- .formacao-icon-circle {
+.formacao-icon-circle {
     background-color: #8A6D3B;
     height: 50px;
     width: 50px;
@@ -280,13 +295,13 @@ head, body {
 }
 
 #formacao-icon svg {
-  fill: black;
+    fill: black;
 }
 
 /* ------------ Angular circle and Java circle --------------- */
 
 .angular-circle {
-/*     border:1px solid #00ff6e; */
+    /*     border:1px solid #00ff6e; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -295,7 +310,7 @@ head, body {
 }
 
 .angular-circle-circle {
-    border:1px solid blue;
+    border: 1px solid blue;
     background-color: #395E97;
     width: 20px;
     height: 20px;
@@ -304,7 +319,7 @@ head, body {
 }
 
 .java-circle {
-/*     border:1px solid #00ff6e; */
+    /*     border:1px solid #00ff6e; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -313,7 +328,7 @@ head, body {
 }
 
 .java-circle-circle {
-    border:1px solid blue;
+    border: 1px solid blue;
     background-color: #395E97;
     width: 20px;
     height: 20px;

@@ -12,11 +12,34 @@
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="/src/css-html/global.style.css">
+    <link rel="stylesheet" href="/src/css/global.style.css">
+    <link rel="stylesheet" href="/src/css/light-theme.css">
+    <link rel="stylesheet" href="/src/css/changer-theme.css">
 
 </head>
 
-<body>
+<body class="dark">
+
+    <div id="theme-toggle">
+        <div class="theme-toggle-display">
+            <input type="checkbox" class="checkbox" id="changer" />
+            <label class="label" for="changer">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+
+    <!-- <div>
+       <button id="theme-toggle"></button>
+    </div> -->
+
+    <!-- import do script JS -->
+    <script src="/src/js/scripts.js"></script>
+
 
     <div class="container">
         <!-- header -->
@@ -60,14 +83,17 @@
                 </div>
 
                 <p>
-                    Durante 10 anos, trabalhei como artista digital 2D, atuando tanto como estudante quanto freelancer.
+                    Durante 10 anos, trabalhei como artista digital 2D, atuando tanto como estudante quanto
+                    freelancer.
                     Entretanto, recentemente me encantei pelo mundo da programação e decidi fazer uma transição de
                     carreira. Atualmente, estou em busca de oportunidades que me permitam aplicar tudo o que venho
-                    aprendendo nesse novo campo. Adoro desafios e estou sempre em busca de novas formas de aprendizado.
+                    aprendendo nesse novo campo. Adoro desafios e estou sempre em busca de novas formas de
+                    aprendizado.
                 </p>
                 <p>
                     Tenho desenvolvido habilidades como desenvolvedor full stack, embora tenha me concentrado mais
-                    recentemente no front-end. Além disso, pretendo iniciar um Bacharelado em Tecnologia da Informação
+                    recentemente no front-end. Além disso, pretendo iniciar um Bacharelado em Tecnologia da
+                    Informação
                     ainda em 2023 para continuar me aprimorando.
                 </p>
 
@@ -131,7 +157,7 @@
             </hr>
         </div>
 
-
 </body>
+
 
 </html>

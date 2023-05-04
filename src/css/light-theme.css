@@ -1,0 +1,22 @@
+.light {
+    background-color: rgb(206, 202, 197);
+    color: #0B1319;
+
+    transition: all 0.9s ease-in-out;
+}
+
+.light #site:hover {
+    color: black;
+}
+
+.light #projetos:hover {
+    color: black;
+}
+
+.light #contato:hover {
+    color: black;
+}
+
+.light #github:hover {
+    color: black;
+}
