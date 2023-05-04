@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#changer"),t=document.body;e.addEventListener("click",(()=>{t.classList.toggle("dark"),t.classList.toggle("light")}))})();
