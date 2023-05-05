@@ -1,3 +1,32 @@
+
+.light .my_photo-circle {
+    border: 8px solid #bba34e;
+    transition: all 0.5s ease-in-out;
+}
+
+.light #about_me-icon h2 {
+    color: #bba34e;
+    transition: all 0.5s ease-in-out;
+}
+
+.light #formacao-icon h2 {
+    color: #bba34e;
+}
+
+.light .tecnologias h2 {
+    color:#bba34e;
+    transition: all 0.5s ease-in-out;
+}
+
+.light .about_me-icon-circle {
+    background-color: #bba34e;
+    transition: all 0.5s ease-in-out;
+}
+
+.light .formacao-icon-circle {
+    background-color: #bba34e;
+}
+
 #theme-toggle {
     display: flex;
     justify-content: right;

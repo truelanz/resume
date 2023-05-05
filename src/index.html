@@ -43,21 +43,50 @@
             <div class="my_photo">
                 <div class="my_photo-circle2">
                     <div class="my_photo-circle">
-                        <img src="" alt="photo-here">
+                        <img src="https://avatars.githubusercontent.com/u/121499741?v=4" alt="photo-here">
                     </div>
                 </div>
             </div>
 
             <div class="name_title">
-                <h1> Alan R. Oliveira</h1>
+                <h1> Alan R. Oliveira </h1>
                 <h3> Front end Developer</h3>
                 <div class="links">
-                    <a id="site" href="#">site</a>
-                    <a id="projetos" href="#">projetos</a>
-                    <a id="contato" href="#">contato</a>
-                    <a id="github" href="#">github</a>
+                    <a class="alert-link" id="site" href="#" class="alert-event">site</a>
+                    <a class="alert-link" id="projetos" href="#">projetos</a>
+                    <a class="alert-link" id="contato" href="#">contato</a>
+                    <a id="github" href="https://github.com/truelanz" target="_blank">github</a>
                 </div>
             </div>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script>
+                // Seleciona todos os links com a classe 'alert-link'
+                var links = document.querySelectorAll('.alert-link');
+
+                // Adiciona um ouvinte de eventos para o clique do mouse em cada link
+                links.forEach(function (link) {
+                    link.addEventListener('click', function (event) {
+                        // Impede o comportamento padrão do link, que é abrir o destino em uma nova página
+                        event.preventDefault();
+                        Swal.fire({
+                            title: 'Página em construção, por favor, acesse o github para mais informações.',
+                            showClass: {
+                                popup: 'animate__animated animate__fadeInDown'
+                            },
+                            hideClass: {
+                                popup: 'animate__animated animate__fadeOutUp'
+                            }
+                        })
+                    })
+                })
+
+                    // Exibe o alerta
+                /* alert('Página "' + link.innerHTML + '" em construção, por favor, acesse o github para mais informações!');
+              });
+            }); */
+            </script>
+
+
             <!-- <hr class="hr_top-vetical"> -->
         </div>
 
@@ -106,7 +135,7 @@
                                 d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
                         </svg>
                     </div>
-                    <h2 style="color: #8A6D3B;">Formações</h2>
+                    <h2>Formações</h2>
                 </div>
 
                 <div class="angular">
@@ -114,7 +143,7 @@
                         <div class="angular-circle-circle"></div>
                         <h3>Certificações Angular, Js, Ts, etc.</h3>
                     </div>
-                    <p>Bootcamp Potência Tech Angular Develope - by iFood - Digital Innovation One</p>
+                    <p>Bootcamp Potência Tech Angular Develope - by iFood</p>
                 </div>
                 <div class="java">
                     <div class="java-circle">
@@ -142,8 +171,7 @@
 
                     <div class="tecnologias-img-bottom">
                         <img style="width: 40px; height: 40px;" src="https://i.imgur.com/WOj8Qrv.png" alt="imgs">
-                        <img style="width: 40px; height: 40px;" src="https://i.imgur.com/g0SPmSY.png"
-                            alt="imgs">
+                        <img style="width: 40px; height: 40px;" src="https://i.imgur.com/g0SPmSY.png" alt="imgs">
                         <img style="width: 40px; height: 40px;" src="https://i.imgur.com/QG1vG57.png" alt="imgs">
                         <img style="width: 40px; height: 40px;" src="https://i.imgur.com/Sz7Vkqc.png" alt="imgs">
                     </div>

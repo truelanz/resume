@@ -10,4 +10,3 @@ toggleButton.addEventListener('click', () => {
   body.classList.toggle('dark');
   body.classList.toggle('light');
 });
-  
