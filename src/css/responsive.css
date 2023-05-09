@@ -1,0 +1,195 @@
+@media screen and (max-width: 1400px) {
+
+    .container-top {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        /* border:1px solid white; */
+
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .container-body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .about_me>p {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+    .formacao p {
+
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    container-top {
+        margin-top: 1px;
+    }
+
+    /* changer theme */
+    .theme-toggle-display {
+        margin-right: 20px;
+    }
+
+    .label {
+        background-color: #d7dfe2;
+
+        padding: 5px;
+        position: relative;
+        height: 21px;
+        width: 45px;
+        transform: scale(1.5);
+    }
+
+    .label .ball {
+        height: 17px;
+        width: 17px;
+        transform: translateX(0px);
+        transition: transform 0.2s linear;
+    }
+
+    .label i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8px;
+        width: 8px;
+    }
+
+    /*  --------------------- */
+
+    .my_photo-circle {
+        height: 110px;
+        width: 110px;
+    }
+
+    .my_photo-circle img {
+        max-width: 98px;
+        max-height: 98px;
+    }
+
+    .my_photo .my_photo-circle2 {
+        height: 140px;
+        width: 140px;
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .links li {
+        width: 45%;
+        margin-bottom: 20px;
+        /* padding: 10px; */
+        /* border: 1px solid black; */
+    }
+
+    .container-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me>p {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 424px) {
+
+    .name_title>h1 {
+        font-size: 25px;
+    }
+
+    .name_title>h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 458px) {
+
+    .about_me p {
+        font-size: 14px;
+    }
+
+    .angular h3 {
+        font-size: 16px;
+    }
+
+    .angular p {
+        font-size: 14px;
+    }
+
+    .java h3 {
+        font-size: 16px;
+    }
+
+    .java p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+
+    .name_title>h1 {
+        font-size: 22px;
+    }
+
+    .name_title>h3 {
+        font-size: 12px;
+    }
+
+    .tecnologias-img-top img {
+        max-width: 30px;
+        max-height: 30px;
+        min-width: 30px;
+        min-height: 30px;
+
+    }
+
+    .tecnologias-img-bottom img {
+        max-width: 30px;
+        max-height: 30px;
+        min-width: 30px;
+        min-height: 30px;
+    }
+
+    #site:hover {
+        padding: .4rem;
+        font-size: 15px;
+    }
+
+    #projetos:hover {
+        padding: .2rem;
+        font-size: 15px;
+    }
+
+    #contato:hover {
+        padding: .3rem;
+        font-size: 15px;
+    }
+
+    #github:hover {
+        padding: .45rem;
+        font-size: 15px;
+    }
+}

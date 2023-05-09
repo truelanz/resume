@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .dark {
@@ -87,15 +86,26 @@
 }
 
 .links {
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
 }
 
-.links>a {
+.links li {
+    list-style: none;
+}
+
+.links>li>a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 700;
     margin-right: 20px;
     color: rgb(99, 108, 125);
+}
+
+.links>li>a:active {
+    position: relative;
+    bottom: 3px;
 }
 
 /* .light #site:hover {
@@ -311,6 +321,24 @@ body.light {
     fill: black;
 }
 
+.formacao-icon-circle:hover {
+    transition: all 0.4s ease-in-out;
+    height: 55px;
+    width: 55px;
+    background-color: #8f3030;;
+}
+
+.formacao-icon-circle svg:hover {
+    width: 37px;
+    height: 37px;
+}
+
+#formacao-icon h2:hover {
+    transition: all 0.4s ease-in-out;
+    font-size: 30px;
+    color: #8f3030;;
+}
+
 /* ------------ Angular circle and Java circle --------------- */
 
 .angular-circle {
@@ -323,7 +351,7 @@ body.light {
 }
 
 .angular-circle-circle {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: #395E97;
     width: 20px;
     height: 20px;
@@ -341,7 +369,7 @@ body.light {
 }
 
 .java-circle-circle {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: #395E97;
     width: 20px;
     height: 20px;
