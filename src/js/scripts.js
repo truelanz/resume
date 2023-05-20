@@ -15,7 +15,7 @@ toggleButton.addEventListener('click', () => {
 
 
 /* pop-up */
-var links = document.querySelectorAll('.alert-link');
+var links = document.querySelectorAll('.alert-link'); 
 links.forEach(function (link) {
   link.addEventListener('click', function (event) {
     event.preventDefault();

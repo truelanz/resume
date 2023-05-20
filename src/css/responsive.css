@@ -23,14 +23,19 @@
         margin-left: 10px;
     }
 
-    .formacao p {
+    .formacao li {
 
-        margin-left: 10px;
+        margin-left: 70px;
     }
 
 }
 
 @media screen and (max-width: 500px) {
+
+    .btn_download {
+        position: absolute;
+        right: 90px;
+    }
 
     container-top {
         margin-top: 1px;
