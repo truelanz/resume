@@ -21,7 +21,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'index.css'
+            filename: 'style.css'
         }),
         new HtmlWebPackPlugin ({
             template: './src/index.html',

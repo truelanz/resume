@@ -64,11 +64,6 @@
     background-size: 100% auto;;
 }
 
-@keyframes gradient-animation-circle2 {
-    0% { border-color: #3C81A8; }
-    100% { border-color:  #68c660; }
-  }
-
 .my_photo-circle2:active {
     transform: scale(1.1);
 }
