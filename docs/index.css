@@ -785,3 +785,94 @@ body.light {
         font-size: 15px;
     }
 }
+.name_title h1 {
+    background: linear-gradient(to right, #395E97, #68c660);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration-color: transparent;
+    animation: gradientAnimation 1.2s infinite alternate;
+    background-size: 250% auto;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+.my_photo .my_photo-circle2 {
+    animation: gradient-animation-circle2 1.2s infinite alternate;
+    background-size: 100% auto;
+    ;
+}
+
+@keyframes gradient-animation-circle2 {
+    0% {
+        border-top-color: #3C81A8;
+    }
+
+    100% {
+        border-color: #68c660;
+    }
+}
+
+.img-rotation {
+    animation: rotate-animation 3s infinite;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+.about_me-icon svg {
+    animation: icon-scale-aboutme 2s infinite;
+}
+
+@keyframes icon-scale-aboutme {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.formacao-icon svg {
+    animation: icon-scale-formacao 2s infinite;
+}
+
+@keyframes icon-scale-formacao {
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.8);
+    }
+}
+
+

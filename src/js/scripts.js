@@ -3,6 +3,7 @@ import "../css/global.style.css";
 import "../css/changer-theme.css";
 import "../css/light-theme.css";
 import "../css/responsive.css";
+import "../css/animations.css";
 
 /* theme changer */
 const toggleButton = document.querySelector('#changer');
